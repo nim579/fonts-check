@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Georgia-Bold';
+    src: url('fonts/Georgia-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Georgia-Regular';
+    src: url('fonts/Georgia-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KazimirText-Bold';
+    src: url('fonts/KazimirText-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KazimirText-Regular';
+    src: url('fonts/KazimirText-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MerriweatherBold';
+    src: url('fonts/MerriweatherBold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MerriweatherRegular';
+    src: url('fonts/MerriweatherRegular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFRegal-Black';
+    src: url('fonts/PFRegal-Black.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFRegal-RegularB';
+    src: url('fonts/PFRegal-RegularB.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PTSerif-Bold';
+    src: url('fonts/PTSerif-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PTSerif-Regular';
+    src: url('fonts/PTSerif-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}

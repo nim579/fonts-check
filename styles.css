@@ -1,0 +1,163 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+
+    -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+     -o-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+}
+
+.layout {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.layout__form {
+    display: block;
+    max-width: 700px;
+    padding: 40px;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 0.6em;
+    box-sizing: border-box;
+
+    border-radius: 0.3em;
+    border: 2px solid black;
+    background: transparent;
+    outline: 0;
+    box-shadow: none;
+
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    color: black;
+}
+.form_button {
+    display: inline-block;
+    margin: 0 0 1em 0;
+    padding: 0.3em 0.7em;
+    box-sizing: border-box;
+
+    border-radius: 0.3em;
+    border: 2px solid black;
+    background: black;
+    outline: 0;
+    box-shadow: none;
+
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.form_button:hover {
+    background: white;
+    color: black;
+}
+
+.layout__fonts {
+    display: flex;
+    flex: 1 1 auto;
+
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    background: white;
+    color: black;
+}
+.layout__fonts:-ms-fullscreen {
+    width: 100%;
+    align-items: center;
+    overflow-y: visible;
+    overflow-x: auto;
+}
+.layout__fonts:-webkit-full-screen {
+    width: 100%;
+    align-items: center;
+    overflow-y: visible;
+    overflow-x: auto;
+}
+.layout__fonts:-moz-full-screen {
+    width: 100%;
+    align-items: center;
+    overflow-y: visible;
+    overflow-x: auto;
+}
+.layout__fonts:-fullscreen {
+    width: 100%;
+    align-items: center;
+    overflow-y: visible;
+    overflow-x: auto;
+}
+
+.layout__fonts_wrap {
+    display: flex;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    overflow-y: visible;
+    overflow-x: auto;
+}
+.layout__fonts:-ms-fullscreen .layout__fonts_wrap {overflow: visible;}
+.layout__fonts:-webkit-full-screen .layout__fonts_wrap {overflow: visible;}
+.layout__fonts:-moz-full-screen .layout__fonts_wrap {overflow: visible;}
+.layout__fonts:-fullscreen .layout__fonts_wrap {overflow: visible;}
+
+.font {
+    display: block;
+    width: 700px;
+    padding: 0 20px 40px;
+    flex: 0 0 700px;
+    background: white;
+    color: black;
+}
+.font__names {
+    display: block;
+    margin-bottom: 0.7em;
+    font-size: 1.2rem;
+}
+.font__form input {
+    display: inline-block;
+    width: 60px;
+    margin: 0 0 1em 0;
+    padding: 0.3em;
+    box-sizing: border-box;
+
+    border-radius: 0.3em;
+    border: 2px solid black;
+    background: transparent;
+    outline: 0;
+    box-shadow: none;
+
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+.font__form_group {
+    display: inline-block;
+    margin-right: 1.2em;
+}
+.font__content p {
+    margin: 0;
+}
