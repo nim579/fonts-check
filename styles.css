@@ -161,3 +161,14 @@ html, body {
 .font__content p {
     margin: 0;
 }
+
+@media screen and (max-width: 700px){
+    .layout__form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .layout__fonts_wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
