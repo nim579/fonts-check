@@ -23,6 +23,18 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'Garamond-Caption';
+    src: url('fonts/Garamond-Caption.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Garamond-Regular';
+    src: url('fonts/Garamond-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'MerriweatherBold';
     src: url('fonts/MerriweatherBold.woff');
     font-weight: normal;

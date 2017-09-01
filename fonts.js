@@ -5,6 +5,9 @@ window.fonts_list = [
     }, {
         header: 'KazimirText-Bold',
         text: 'KazimirText-Regular'
+    },{
+        header: 'Garamond-Caption',
+        text: 'Garamond-Regular'
     }, {
         header: 'MerriweatherBold',
         text: 'MerriweatherRegular'
