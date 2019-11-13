@@ -1,4 +1,16 @@
 @font-face {
+    font-family: 'HelveticaNeueCyr-Bold';
+    src: url('fonts/helvetica-cyr_bold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNeueCyr-Roman';
+    src: url('fonts/helvetica-cyr_roman.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Georgia-Bold';
     src: url('fonts/Georgia-Bold.woff');
     font-weight: normal;

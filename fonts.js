@@ -1,5 +1,8 @@
 window.fonts_list = [
     {
+        header: 'HelveticaNeueCyr-Bold',
+        text: 'HelveticaNeueCyr-Roman'
+    }, {
         header: 'Georgia-Bold',
         text: 'Georgia-Regular'
     }, {

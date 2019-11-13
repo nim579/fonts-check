@@ -12,6 +12,7 @@ $(function(){
     $('.js_text').bind('input', renderContent);
     $('.js_text').bind('change', renderContent);
 
+    if(!isFullscreenEnabled()) $('.js_fullscreen').hide();
     $('.js_fullscreen').bind('click', toggleFullscreen);
 });
 
@@ -98,26 +99,29 @@ function setParams($font){
     });
 }
 
+function isFullscreenEnabled(){
+    return document.fullscreenEnabled;
+}
+
 function toggleFullscreen(e){
     var el = $('.js_fullscreen_el')[0];
     var doc = document;
 
-    if(doc.fullscreenEnabled){
-        if(doc.cancelFullScreen){
-            doc.cancelFullScreen();
-        } else if(doc.mozCancelFullScreen){
-            doc.mozCancelFullScreen();
-        } else if(doc.webkitCancelFullScreen){
-            doc.webkitCancelFullScreen();
+    if(doc.fullscreenElement){
+        if(doc.exitFullscreen){
+            doc.exitFullscreen();
+        } else if(doc.webkitExitFullscreen){
+            doc.webkitExitFullscreen();
+        } else if(doc.mozExitFullscreen){
+            doc.mozExitFullscreen();
         }
     } else {
-        if(el.requestFullScreen){
-            el.requestFullScreen();
-        } else if(el.mozRequestFullScreen){
-            el.mozRequestFullScreen();
-        } else if(el.webkitRequestFullScreen){
-            el.webkitRequestFullScreen();
+        if(el.requestFullscreen){
+            el.requestFullscreen();
+        } else if(el.webkitRequestFullscreen){
+            el.webkitRequestFullscreen();
+        } else if(el.mozRequestFullscreen){
+            el.mozRequestFullscreen();
         }
     }
-
 }
